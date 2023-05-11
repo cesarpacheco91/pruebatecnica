@@ -19,11 +19,13 @@
                 <li class="nav-item">
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Username1
+                    producto
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/cafeteria/view/username/index.php">usuarios</a></li>
-                    <li><a class="dropdown-item" href="/cafeteria/view/username/create.php">Agregar Nuevos Usuarios</a></li>
+                    <li><a class="dropdown-item" href="/cafeteria/view/username/index.php">producto</a></li>
+                    <li><a class="dropdown-item" href="/cafeteria/view/username/create.php">Agregar Nuevos productos</a></li>
+                    <li><a class="dropdown-item" href="/cafeteria/view/username/index.php">Ventas</a></li>
+
                 </ul>
                 </li>
             </ul>

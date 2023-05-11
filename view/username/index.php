@@ -5,7 +5,7 @@
     $rows= ($obj->index());
 ?>
 <div class="mb-3">
-    <a href="/Cafeteria/view/username/create.php"class= "btn btn-primary">AGREGAR NUEVO USUARIO</a>
+    <a href="/Cafeteria/view/username/create.php"class= "btn btn-primary">AGREGAR NUEVO PRODUCTO</a>
 </div>
 <table class="table">
     <thead>
@@ -34,6 +34,7 @@
                     <th>
                         <a href="show.php?id=<?= $row[0]?>" class="btn btn-primary">Ver</a>
                         <a href="edit.php?id=<?= $row[0]?>" class="btn btn-success">Modificar</a>
+                        <a href="confirmacion_compra.php?id=<?= $row[0]?>" class="btn btn-success">Comprar</a>
                         <!-- Button trigger modal -->
                         <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Eliminar</a>
                         

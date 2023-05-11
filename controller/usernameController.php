@@ -18,11 +18,18 @@
             return $this->model->index() ? $this->model->index() : false;
         }
         public function update($id,$nombre,$referencia,$precio,$peso,$categoria,$stock,$fecha_creacion){
+            $this->model->addProduct($id,1);
             return ($this->model->update($id,$nombre,$referencia,$precio,$peso,$categoria,$stock,$fecha_creacion) != false) ? header("location:show.php?id=".$id):header("location:index.php");
         }
         public function delete($id,){
             return ($this->model->delete($id,))? header("location:index.php"):header("location:show.php?id=".$id);
         }
+        public function compra($id,){
+        
+            return ($this->model->delete($id,))? header("location:index.php"):header("location:show.php?id=".$id);
+
+        }
+
 }    
 
 
