@@ -13,7 +13,7 @@ Copia el repositorio en la carpeta `htdocs` de XAMPP. Si estás utilizando un si
 Abre la carpeta `config` en el repositorio copiado y configura tus credenciales de servidor en el archivo `db.php`. Asegúrate de que los detalles de tu base de datos sean correctos.
 
 ## Paso 5: Ejecutar el script SQL
-Dirígete a la carpeta `SQLBD` en el repositorio y ejecuta el script `username1.sql` en tu base de datos. Este script creará la tabla necesaria para que la aplicación funcione correctamente.
+Dirígete a la carpeta `SQLBD` en el repositorio y ejecuta el script `producto.sql` en tu base de datos. Este script creará la tabla necesaria para que la aplicación funcione correctamente.
 
 ## Paso 6: Ejecutar el proyecto
 Abre un navegador web y dirígete a buscar el index del proyecto y pruebalo.
